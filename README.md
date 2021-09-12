@@ -24,7 +24,7 @@ Download the archive:
 
 Init relayer:
 
->cp "Cosmos Relayer" /usr/local/bin/rly
+>rly config init
 
 Manually edit config.yaml:
 
