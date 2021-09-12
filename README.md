@@ -128,7 +128,7 @@ Wait for "Channel created". Repeat command if needed. Your output should be like
 
 Send tokens from UMEE to KI:
 
->rly tx transfer umee-betanet-1 kichain-t-4 1000000uumee tki1pwj3kxmkaz45y0gd9zxyaprd4cvxXXXXXXXX --path umee_to_ki_path
+>rly tx transfer umee-betanet-1 kichain-t-4 1000000uumee tki1mk6keqrexh4tsl3h0q6nee6a4pd3sXXXXXXXXX --path umee_to_ki_path
 
 Your output:
 
@@ -172,7 +172,7 @@ Open channel and wait for "Channel created", repeat if needed:
 
 Make transaction:
 
->rly tx transfer umee-betanet-1 kichain-t-4 1000000uumee tki1pwj3kxmkaz45y0gd9zxyaprd4cvXXXXXXXXX --path umee_to_ki_path
+>rly tx transfer umee-betanet-1 kichain-t-4 1000000uumee tki1mk6keqrexh4tsl3h0q6nee6a4pd3sXXXXXXXXX --path umee_to_ki_path
 
 Now balance should change (it takes about 10 minutes). Check it:
 
@@ -198,7 +198,7 @@ First, check balance:
 
 Make transaction:
 
->rly tx transfer kichain-t-4 umee-betanet-1 1000000utki umee1ujnm9g8xtvlhjjxr0twnv227ma4XXXXXXXXXX --path ki_to_umee_path
+>rly tx transfer kichain-t-4 umee-betanet-1 1000000utki umee1dz92f3msc3ynxfv3cx0jpekg74gud2rXXXXXXX --path ki_to_umee_path
 
 If balance hasn't change, edit config.yaml (two "channel-id" lines in **ki_to_umee_path**):
 
@@ -229,7 +229,7 @@ Open channel from KI to UMEE once again, wait for "Channel created", repeat if n
 
 Transaction:
 
->rly tx transfer kichain-t-4 umee-betanet-1 1000000utki umee1ujnm9g8xtvlhjjxr0twnv227ma4XXXXXXXX --path ki_to_umee_path
+>rly tx transfer kichain-t-4 umee-betanet-1 1000000utki umee1dz92f3msc3ynxfv3cx0jpekg74gud2rXXXXXXX --path ki_to_umee_path
 
 Balance:
 
