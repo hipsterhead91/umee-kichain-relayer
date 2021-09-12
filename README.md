@@ -255,7 +255,7 @@
 
     Error: failed to update off-chain light client for chain kichain-t-4: verify from #298003 to #298106 failed: old header has expired at 2021-09-12 12:54:45.10796825 +0000 UTC (now: 2021-09-12 14:55:48.593232859 +0200 CEST m=+0.323576592)
 
-То мы обновляем клиенты и снова повторяем команду:
+то мы обновляем клиенты и снова повторяем команду:
 
 >rly light init umee-betanet-1 -f
   
