@@ -92,7 +92,7 @@
   
 >rly light init kichain-t-4 -f
 
-Вывод соответственно: 
+Вывод: 
 
     root@vmi657940:~# rly light init umee-betanet-1 -f
     successfully created light client for umee-betanet-1 by trusting endpoint http://161.97.78.75:26657
@@ -174,7 +174,7 @@
 
 >rly tx transfer umee-betanet-1 kichain-t-4 1000000uumee tki1pwj3kxmkaz45y0gd9zxyaprd4cvXXXXXXXXX --path umee_to_ki_path
 
-Теперь баланс должен измениться (может занять около 10 секунд):
+Теперь баланс должен измениться (может занять около 10 секунд). Проверяем:
 
 >rly query balance kichain-t-4
 
@@ -192,7 +192,7 @@
 
 >rly tx link ki_to_umee_path
 
-Проверяем баланс:
+Сперва проверяем баланс:
 
 >rly query balance umee-betanet-1
 
