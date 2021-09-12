@@ -1,4 +1,4 @@
-# Installing Cosmos Relayer (v0.9.3) between KiChain and Umee
+# Installing Cosmos Relayer (v0.9.3) between KiChain and Umee networks
 
 ## Preparations
 
