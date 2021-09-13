@@ -79,9 +79,9 @@ Than you need to get some tokens from Umee faucet (you can find it in Umee disco
 
 Your output:
 
-    root@vmi647657:~# rly query balance umee-betanet-1
+    root@NV-6-T:~# rly query balance umee-betanet-1
     100000000uumee
-    root@vmi647657:~# rly query balance kichain-t-4
+    root@NV-6-T:~# rly query balance kichain-t-4
     90755269utki
 
 ## Running relayer
@@ -94,9 +94,9 @@ Run clients:
 
 Your output:
 
-    root@vmi657940:~# rly light init umee-betanet-1 -f
+    root@NV-6-T:~# rly light init umee-betanet-1 -f
     successfully created light client for umee-betanet-1 by trusting endpoint http://161.97.78.75:26657
-    root@vmi657940:~# rly light init kichain-t-4 -f
+    root@NV-6-T:~# rly light init kichain-t-4 -f
     successfully created light client for kichain-t-4 by trusting endpoint http://127.0.0.1:26657...
 
 Create path from UMEE to KI:
@@ -140,7 +140,7 @@ Check balance:
 
 Your output:
 
-    root@vmi657940:~# rly query balance kichain-t-4
+    root@NV-6-T:~# rly query balance kichain-t-4
     10000000utki
 
 If balance hasn't change, edit config.yaml (two "channel-id" lines in **umee_to_ki_path**):
